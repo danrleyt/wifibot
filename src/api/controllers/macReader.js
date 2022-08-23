@@ -1,7 +1,4 @@
 const child = require('child_process');
-var envs = require('dotenv');
-
-envs.load();
 
 function getMacs(ip, mask) {
   var strMacs = child
